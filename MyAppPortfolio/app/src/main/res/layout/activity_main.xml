@@ -63,10 +63,9 @@
         android:layout_width="match_parent"
         android:layout_height="5dp" />
     <Button
-        style="@style/MyButtonStyle"
+        style="@style/MyButtonStyle.Capstone"
         android:text="@string/capstone_my_own_app"
         android:id="@+id/capstoneButton"
-        android:background="@drawable/button_capstone"
         android:onClick="clickCapstone"/>
 
 </LinearLayout>
