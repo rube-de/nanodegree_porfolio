@@ -10,7 +10,4 @@
     <string name="build_it_bigger">BUILD IT BIGGER</string>
     <string name="xyz_reader">XYZ READER</string>
     <string name="capstone_my_own_app">CAPSTONE: MY OWN APP</string>
-
-    <string name="button_width">250dp</string>
-    <string name="button_height">60dp</string>
 </resources>

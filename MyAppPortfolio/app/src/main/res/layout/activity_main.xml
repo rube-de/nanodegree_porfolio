@@ -22,78 +22,50 @@
         android:layout_height="20dp" />
 
     <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        style="@style/MyButtonStyle"
         android:text="@string/spotify_streamer"
-        android:id="@+id/button0"
-        android:layout_below="@+id/textView"
-        android:textSize="18dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:background="@drawable/button"
+        android:id="@+id/spotifyButton"
         android:onClick="clickSpotify"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
     <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        style="@style/MyButtonStyle"
         android:text="@string/scores_app"
-        android:id="@+id/button1"
-        android:layout_below="@+id/textView"
-        android:textSize="18dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:background="@drawable/button"
+        android:id="@+id/scoresButton"
         android:onClick="clickScoresApp"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
     <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        style="@style/MyButtonStyle"
         android:text="@string/library_app"
-        android:id="@+id/button2"
-        android:layout_below="@+id/textView"
-        android:textSize="18dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:background="@drawable/button"
+        android:id="@+id/libraryButton"
         android:onClick="clickLibraryApp"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
     <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        style="@style/MyButtonStyle"
         android:text="@string/build_it_bigger"
-        android:id="@+id/button3"
-        android:layout_below="@+id/textView"
-        android:textSize="18dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:background="@drawable/button"
+        android:id="@+id/bibButton"
         android:onClick="clickBuildItBiggerApp"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
     <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        style="@style/MyButtonStyle"
         android:text="@string/xyz_reader"
-        android:id="@+id/button4"
+        android:id="@+id/readerButton"
         android:layout_below="@+id/textView"
-        android:textSize="18dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:background="@drawable/button"
         android:onClick="clickXYZReader"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
     <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        style="@style/MyButtonStyle"
         android:text="@string/capstone_my_own_app"
-        android:id="@+id/button5"
-        android:layout_below="@+id/textView"
-        android:textSize="18dp"
-        android:layout_gravity="center_vertical|center_horizontal"
+        android:id="@+id/capstoneButton"
         android:background="@drawable/button_capstone"
         android:onClick="clickCapstone"/>
 
